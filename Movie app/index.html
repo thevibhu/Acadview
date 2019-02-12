@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOPE MOVIES!</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <div id="page-banner">
+                    <h1 class="title">Movie mania</h1>
+                    <p>Movies for everyone</p>
+                    <form id="search-movies">
+                        <input type="text" placeholder="Search movies..."/>
+                    </form>
+                </div>
+            </header>
+            <div id="movie-list">
+                <h2 class="title">Movies to watch</h2>
+                <ul id="movies">
+                    <li>
+                        <span class="name">Fight Club</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">The Wolf of Wall Street</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Se7evn</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Pulp fiction</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Nocturnal Animals</span>
+                        <span class="delete">Delete</span>
+                    
+                    </li>
+                </ul>
+            </div>
+            <form id="add-movie">
+                <input type="checkbox" id="hide" />
+                <label for="hide">Hide the list</label>
+                <input type="text" placeholder="Add a dope movie..."/>
+                <button>Add</button>
+            </form>
+        </div>
+        <script src="js/movieApp.js"></script>
+
+    </body>
+</html>
