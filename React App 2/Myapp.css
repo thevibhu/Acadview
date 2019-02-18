@@ -1,0 +1,30 @@
+
+.heading{
+  text-align:center;
+  color:brown;
+  margin-bottom: 50px;
+}
+.meradiv{
+border : 1px solid green;
+background-color: tomato;
+border-radius:20px;
+margin-right: 500px;
+margin-left:500px;
+margin-bottom: 30px;
+box-shadow: 60px -16px grey;
+}
+
+.p{
+  text-align: center;
+}
+
+.dis{
+  margin-bottom: 30px;
+}
+
+.chikna{
+  border: 1px solid brown;
+  margin-right:1100px;
+  text-align: center;
+  background-color: yellow;
+}
